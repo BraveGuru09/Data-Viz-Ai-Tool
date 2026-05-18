@@ -31,7 +31,7 @@ class Sidebar:
         upload_btn.pack(pady=5, padx=10, fill="x")
         
         # Divider
-        divider1 = ctk.CTkLabel(self.sidebar_frame, text="━" * 20, text_color="#404040")
+        divider1 = ctk.CTkLabel(self.sidebar_frame, text="\u2501" * 20, text_color="#404040")
         divider1.pack(pady=10)
         
         # Chart Types Section
@@ -63,7 +63,7 @@ class Sidebar:
             btn.pack(pady=2, padx=10, fill="x")
         
         # Divider
-        divider2 = ctk.CTkLabel(self.sidebar_frame, text="━" * 20, text_color="#404040")
+        divider2 = ctk.CTkLabel(self.sidebar_frame, text="\u2501" * 20, text_color="#404040")
         divider2.pack(pady=10)
         
         # Analysis Section
@@ -96,7 +96,7 @@ class Sidebar:
         ai_btn.pack(pady=2, padx=10, fill="x")
         
         # Divider
-        divider3 = ctk.CTkLabel(self.sidebar_frame, text="━" * 20, text_color="#404040")
+        divider3 = ctk.CTkLabel(self.sidebar_frame, text="\u2501" * 20, text_color="#404040")
         divider3.pack(pady=10)
         
         # Settings
